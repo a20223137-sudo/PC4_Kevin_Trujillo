@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2e197d8427e9ce83859a8872d0d9c170 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2e197d8427e9ce83859a8872d0d9c170" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2e197d8427e9ce83859a8872d0d9c170 = L.map(
+                "map_2e197d8427e9ce83859a8872d0d9c170",
+                {
+                    center: [39.5, -98.35],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_70bebbd2a2e400dd59077ec3b3064ecc = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_70bebbd2a2e400dd59077ec3b3064ecc.addTo(map_2e197d8427e9ce83859a8872d0d9c170);
+        
+    
+            var marker_df62eb2780b7f359c06a85640ec2dbfa = L.marker(
+                [39.9526, -75.1652],
+                {
+}
+            ).addTo(map_2e197d8427e9ce83859a8872d0d9c170);
+        
+    
+            var icon_1f4ea9bb57c9e67fc7dd9e6d1528e4dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7f2bfb994c4c136e764a022d903db78b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_bd8eaa174a33f60b47274e107f498504 = $(`<div id="html_bd8eaa174a33f60b47274e107f498504" style="width: 100.0%; height: 100.0%;">RockyDirector: Jhon G. AvildsenAño: 1976Género: Drama / DeportePaís: Estados Unidos</div>`)[0];
+                popup_7f2bfb994c4c136e764a022d903db78b.setContent(html_bd8eaa174a33f60b47274e107f498504);
+            
+        
+
+        marker_df62eb2780b7f359c06a85640ec2dbfa.bindPopup(popup_7f2bfb994c4c136e764a022d903db78b)
+        ;
+
+        
+    
+    
+            marker_df62eb2780b7f359c06a85640ec2dbfa.bindTooltip(
+                `<div>
+                     Rocky
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_df62eb2780b7f359c06a85640ec2dbfa.setIcon(icon_1f4ea9bb57c9e67fc7dd9e6d1528e4dd);
+            
+    
+            var marker_9df6dc5d8caebbf52cd764c7f5d6ed24 = L.marker(
+                [33.748995, -84.387982],
+                {
+}
+            ).addTo(map_2e197d8427e9ce83859a8872d0d9c170);
+        
+    
+            var icon_0e28673df2e6dc020c627817134e2717 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6c94ebff1b6928ecc27b5d6ef588fe30 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_806a2d4870383ec2584aa68e574e0a7f = $(`<div id="html_806a2d4870383ec2584aa68e574e0a7f" style="width: 100.0%; height: 100.0%;">InterestelarDirector: Christopher NolanAño: 2014Género: Ciencia ficciónPaís: Estados Unidos</div>`)[0];
+                popup_6c94ebff1b6928ecc27b5d6ef588fe30.setContent(html_806a2d4870383ec2584aa68e574e0a7f);
+            
+        
+
+        marker_9df6dc5d8caebbf52cd764c7f5d6ed24.bindPopup(popup_6c94ebff1b6928ecc27b5d6ef588fe30)
+        ;
+
+        
+    
+    
+            marker_9df6dc5d8caebbf52cd764c7f5d6ed24.bindTooltip(
+                `<div>
+                     Interestelar
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9df6dc5d8caebbf52cd764c7f5d6ed24.setIcon(icon_0e28673df2e6dc020c627817134e2717);
+            
+    
+            var marker_4e3340426aba622d649cee0a3fb8848b = L.marker(
+                [33.748995, -84.387982],
+                {
+}
+            ).addTo(map_2e197d8427e9ce83859a8872d0d9c170);
+        
+    
+            var icon_a942263c900f435afd33b79b3966a5e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_abd8fafb11618dcd88babe16370bdc93 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c0f62b1f1971c155ae29d1f2fa1269f5 = $(`<div id="html_c0f62b1f1971c155ae29d1f2fa1269f5" style="width: 100.0%; height: 100.0%;">TitanicDirector: James CameronAño: 1997Género: Romance / DramaPaís: Estados Unidos</div>`)[0];
+                popup_abd8fafb11618dcd88babe16370bdc93.setContent(html_c0f62b1f1971c155ae29d1f2fa1269f5);
+            
+        
+
+        marker_4e3340426aba622d649cee0a3fb8848b.bindPopup(popup_abd8fafb11618dcd88babe16370bdc93)
+        ;
+
+        
+    
+    
+            marker_4e3340426aba622d649cee0a3fb8848b.bindTooltip(
+                `<div>
+                     Titanic
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4e3340426aba622d649cee0a3fb8848b.setIcon(icon_a942263c900f435afd33b79b3966a5e7);
+            
+    
+            var marker_03329f6e8b464de5fc7970284c7e0d20 = L.marker(
+                [41.8781, -87.6298],
+                {
+}
+            ).addTo(map_2e197d8427e9ce83859a8872d0d9c170);
+        
+    
+            var icon_ca527c6e126365db70866a4223b868ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_005011d7f951acaa3272bc383d1b03a2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d8271dc9be64bc09ddba60a8b015b786 = $(`<div id="html_d8271dc9be64bc09ddba60a8b015b786" style="width: 100.0%; height: 100.0%;">Los VengadoresDirector: Joss WhedonAño: 2012Género: Acción / SuperhéroesPaís: Estados Unidos</div>`)[0];
+                popup_005011d7f951acaa3272bc383d1b03a2.setContent(html_d8271dc9be64bc09ddba60a8b015b786);
+            
+        
+
+        marker_03329f6e8b464de5fc7970284c7e0d20.bindPopup(popup_005011d7f951acaa3272bc383d1b03a2)
+        ;
+
+        
+    
+    
+            marker_03329f6e8b464de5fc7970284c7e0d20.bindTooltip(
+                `<div>
+                     Los Vengadores
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_03329f6e8b464de5fc7970284c7e0d20.setIcon(icon_ca527c6e126365db70866a4223b868ff);
+            
+    
+            var marker_2eac54ea67d9161214ec60c8b98fc93c = L.marker(
+                [42.3314, -83.0458],
+                {
+}
+            ).addTo(map_2e197d8427e9ce83859a8872d0d9c170);
+        
+    
+            var icon_2bbc777a57ccc7321cb746f4344e87d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b3ad3263d492cc393196b759fbf50965 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_05145e1cd3e5859cf84fc0b7d0ae79cc = $(`<div id="html_05145e1cd3e5859cf84fc0b7d0ae79cc" style="width: 100.0%; height: 100.0%;">Gigantes de Acero (Real Steel)Director: Shawn LevyAño: 2011Género: Acción / Ciencia ficciónPaís: Estados Unidos</div>`)[0];
+                popup_b3ad3263d492cc393196b759fbf50965.setContent(html_05145e1cd3e5859cf84fc0b7d0ae79cc);
+            
+        
+
+        marker_2eac54ea67d9161214ec60c8b98fc93c.bindPopup(popup_b3ad3263d492cc393196b759fbf50965)
+        ;
+
+        
+    
+    
+            marker_2eac54ea67d9161214ec60c8b98fc93c.bindTooltip(
+                `<div>
+                     Gigantes de Acero (Real Steel)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2eac54ea67d9161214ec60c8b98fc93c.setIcon(icon_2bbc777a57ccc7321cb746f4344e87d8);
+            
+</script>
+</html>
